@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:wght@900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.to-white-filter {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(95%) saturate(1%)
+    hue-rotate(135deg) brightness(103%) contrast(100%);
+}
+
+.home-hero-image {
+  content: url("./assets/home/mobile/image-hero-coffeepress.jpg");
+}
+@media screen and (min-width: 768px) {
+  .home-hero-image {
+    content: url("./assets/home/tablet/image-hero-coffeepress.jpg");
+  }
+}
+@media screen and (min-width: 1440px) {
+  .home-hero-image {
+    content: url("./assets/home/desktop/image-hero-coffeepress.jpg");
+  }
+}
+
+.about-us-hero-image {
+  content: url("./assets/about/mobile/image-hero-whitecup.jpg");
+}
+@media screen and (min-width: 768px) {
+  .about-us-hero-image {
+    content: url("./assets/about/tablet/image-hero-whitecup.jpg");
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-us-hero-image {
+    content: url("./assets/about/desktop/image-hero-whitecup.jpg");
+  }
+}
+
+.plan-hero-image {
+  content: url("./assets/plan/mobile/image-hero-blackcup.jpg");
+}
+@media screen and (min-width: 768px) {
+  .plan-hero-image {
+    content: url("./assets/plan/tablet/image-hero-blackcup.jpg");
+  }
+}
+@media screen and (min-width: 1440px) {
+  .plan-hero-image {
+    content: url("./assets/plan/desktop/image-hero-blackcup.jpg");
+  }
+}
+
+.about-us-commitment-image {
+  content: url("./assets/about/mobile/image-commitment.jpg");
+}
+@media screen and (min-width: 768px) {
+  .about-us-commitment-image {
+    content: url("./assets/about/tablet/image-commitment.jpg");
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-us-commitment-image {
+    content: url("./assets/about/desktop/image-commitment.jpg");
+  }
+}
+
+.about-us-quality-image {
+  content: url("./assets/about/mobile/image-quality.jpg");
+}
+@media screen and (min-width: 768px) {
+  .about-us-quality-image {
+    content: url("./assets/about/tablet/image-quality.jpg");
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-us-quality-image {
+    content: url("./assets/about/desktop/image-quality.jpg");
+  }
+}
+
+.coffee-collection-title-gradient {
+  background-image: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0.0001) 0%,
+    #fefcf7 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+.coffee-collection-dark-gradient {
+  background-image: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0.0001) 0%,
+    #27241d 100%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.modal-background {
+  background: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0.504981) 0%,
+    #fefcf7 55.94%
+  );
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.modal-links {
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
