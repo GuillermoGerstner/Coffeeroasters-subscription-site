@@ -75,7 +75,7 @@ const App = () => {
 
       <Footer />
 
-      <p class="mx-auto">
+      <p class="mx-auto w-fit">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
