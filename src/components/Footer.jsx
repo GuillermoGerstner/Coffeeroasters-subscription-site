@@ -66,6 +66,18 @@ const Footer = () => {
           className="cursor-pointer to-white-filter hover:filter-none"
         />
       </div>
+
+      <p class="attribution">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by{" "}
+        <a href="https://www.linkedin.com/in/guillermogerstner">
+          Guillermo Gerstner
+        </a>
+        .
+      </p>
     </footer>
   );
 };
